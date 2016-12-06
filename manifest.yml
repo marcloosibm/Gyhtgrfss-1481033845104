@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Gyhtgrfss
+  host: Gyhtgrfss
+  disk_quota: 1024M
+  services:
+  - Gyhtgrfss-personality_insights
